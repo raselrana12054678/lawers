@@ -1,0 +1,825 @@
+.header-area {
+  /**carousel  slider start here **/
+  /**slider btn**/
+  /**carousel  slider end  here **/
+}
+.header-area .header-top {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.header-area .header-top .contn1 {
+  z-index: 2;
+}
+.header-area .header-top .contn1 h6 img {
+  margin-right: 10px;
+}
+.header-area .header-top2 {
+  z-index: 2;
+}
+.header-area .header-top2 .contn3 {
+  text-align: right;
+}
+.header-area .header-top2 .contn3 h6 img {
+  margin-right: 10px;
+}
+.header-area .header {
+  z-index: 2;
+  background-color: rgb(75, 71, 71);
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.header-area .header .menu-area ul {
+  display: flex;
+}
+.header-area .header .menu-area ul li {
+  list-style: none;
+}
+.header-area .header .menu-area ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  font-family: "Crimson pro";
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.header-area .header .logo-area {
+  margin-top: -57px;
+}
+.header-area .header .menu1-area ul {
+  display: flex;
+}
+.header-area .header .menu1-area ul li {
+  list-style: none;
+}
+.header-area .header .menu1-area ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  font-family: "Crimson pro";
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.header-area .header .icon-content h6 {
+  color: #fff;
+}
+.header-area .header .icon-content h6 img {
+  margin-right: 10px;
+}
+.header-area .carousel-item {
+  height: 100vh;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+.header-area .carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #033A5B;
+  opacity: 0.7;
+}
+.header-area .carousel-caption {
+  bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: block;
+  margin-left: 0;
+}
+.header-area .carousel-caption h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  font-family: "Crimson pro";
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+.header-area .carousel-caption h5 {
+  font-size: 60px;
+  font-family: "Crimson pro";
+  font-weight: 700;
+}
+.header-area .carousel-caption p {
+  font-size: 18px;
+  top: 2rem;
+}
+.header-area .slider-btn {
+  margin-top: 30px;
+}
+.header-area .slider-btn .btn {
+  background-color: #B69D74;
+  -moz-columns: white;
+       columns: white;
+  border-radius: 0;
+  padding: 14px 30px;
+  margin-right: 15px;
+  color: white;
+}
+.header-area .slider-btn .btn-2 {
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: white;
+  padding: 14px 30px;
+  background-color: transparent;
+}
+.header-area img {
+  margin-left: 10px;
+}
+
+.services-area {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.services-area .service-title {
+  text-align: center;
+}
+.services-area .service-title .title h4 {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: "Crimson pro";
+  color: #fff;
+  border-bottom: 2px solid #B69D74;
+  margin-left: 608px;
+  margin-right: 578px;
+}
+.services-area .service-title .title h4 img {
+  margin-right: 6px;
+}
+.services-area .service-title h2 {
+  width: 668px;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 600;
+  font-family: "Crimson Pro";
+  margin: 0 auto;
+  color: white;
+}
+.services-area .family-law {
+  background-color: #fff;
+  width: 312px;
+  height: auto;
+  background-size: cover;
+  border-radius: 4px;
+}
+.services-area .family-law .quis {
+  margin-top: 90px;
+  padding-top: 30px;
+  margin-left: 10px;
+}
+.services-area .family-law .quis h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Crimson Text";
+}
+.services-area .family-law .quis p {
+  font-size: 19px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: "DM sans";
+  color: #666666;
+}
+.services-area .family-law .quis .icon a {
+  font-size: 15px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: "Dm Sans";
+  color: #666666;
+}
+.services-area .family-law .quis .icon img {
+  margin-left: 5px;
+  overflow: hidden;
+  color: #666666;
+}
+.profesonal-law {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.profesonal-law .btn {
+  align-items: center;
+  display: block;
+  padding-bottom: 160px;
+}
+.profesonal-law .btn a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #B69D74;
+  border: 1px solid #B69D74;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.profesonal-law .btn a:hover {
+  background-color: #B69D74;
+  color: #fff;
+  transform: 0.5s;
+}
+.profesonal-law .btn a img {
+  margin-left: 7px;
+}
+.profesonal-law .title {
+  color: #B69D74;
+}
+.profesonal-law .title h4 {
+  font-size: 16px;
+  color: #B69D74;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: "Crimson pro";
+  border-bottom: 2px solid #B69D74;
+  margin-right: 505px;
+}
+.profesonal-law .title h4 img {
+  color: #B69D74;
+}
+.profesonal-law h2 {
+  color: #033A5B;
+  font-size: 48px;
+  padding: 10px 0;
+}
+.profesonal-law p {
+  padding-bottom: 20px;
+}
+.profesonal-law .icon-area {
+  display: flex;
+}
+.profesonal-law .icon-area .icon-content {
+  margin-left: 20px;
+}
+.image-area {
+  padding: 150px 0;
+  text-align: center;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonial-area {
+  padding: 67px 0;
+}
+.testimonial-area .lower .icon-text {
+  display: flex;
+  border: 1px solid #fff;
+  padding: 15px 0;
+  width: 48%;
+  background-color: #fff;
+  margin-top: -102px;
+}
+.testimonial-area .lower .icon-text .icon-im {
+  margin-left: 15px;
+}
+.testimonial-area .lower .icon-text .icon-contentt {
+  margin-left: 20px;
+}
+.testimonial-area .lower .icon-text .icon-contentt h5 {
+  font-size: 16px;
+  color: #B69D74;
+}
+.testimonial-area .lower .icon-text .icon-contentt h3 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "DM Sans";
+  line-height: 100%;
+}
+.testimonial-area .lower .cta {
+  margin-top: -83px;
+}
+.testimonial-area h4 {
+  font-size: 16px;
+  color: #B69D74;
+  font-family: "Crimson pro";
+  font-weight: 500;
+  line-height: 100%;
+}
+.testimonial-area h2 {
+  font-size: 48px;
+  color: #033A5B;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: "Crimson pro";
+}
+.testimonial-area p {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "DM Sans";
+  padding-bottom: 45px;
+}
+.testimonial-area .testi {
+  border-top: 2px solid #B69D74;
+  border-bottom: 2px solid #B69D74;
+  border-top-right-radius: 139px;
+  border-bottom-left-radius: 71px;
+  margin-bottom: 40px;
+}
+.testimonial-area .testi .image img {
+  text-align: right;
+}
+.testimonial-area .testi .test {
+  text-align: right;
+}
+.testimonial-area .testi .test img {
+  padding-bottom: 10px;
+}
+
+.our-projects {
+  padding: 95px 0;
+  background-size: cover;
+  background-position: center;
+}
+.our-projects .features {
+  margin-right: 27%;
+}
+.our-projects .features .icon-tex {
+  margin-bottom: 30px;
+}
+.our-projects .features .icon-tex h4 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Crimson pro";
+  color: #B69D74;
+  border-bottom: 2px solid #B69D74;
+  margin-right: 201px;
+}
+.our-projects .features .icon-tex h4 img {
+  margin-bottom: 10px;
+}
+.our-projects .features h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 600;
+  font-family: "Crimson pro";
+  color: #fff;
+}
+.our-projects .features p {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 27px;
+  font-family: "DM Sans";
+  color: #FFFFFF;
+  padding: 20px 0;
+  margin-right: 38px;
+}
+.our-projects .features .btn-area a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: "DM Sans";
+  border: 1px solid #B69D74;
+  padding: 10px 20px;
+  color: #B69D74;
+}
+.our-projects .accident {
+  border: 1px solid #B69D74;
+  margin: -5px;
+  z-index: 2;
+  border-radius: 3px;
+}
+.our-projects .accident img {
+  z-index: -1;
+}
+.our-projects .accident h5 {
+  border: 1px solid #fff;
+  margin-right: 271px;
+  padding: 10px 20px;
+  color: #B69D74;
+  background-color: #FFF;
+  font-size: 16px;
+  margin-top: -42px;
+  z-index: 2;
+  position: absolute;
+}
+.our-projects .accident .icon-tx {
+  display: flex;
+  padding: 20px 20px;
+}
+.our-projects .accident .icon-tx .text h3 {
+  padding: 0 10px;
+  font-size: 30px;
+  font-family: "crimson pro";
+  color: white;
+  line-height: 36px;
+  font-weight: 600;
+}
+.Our-attorneys {
+  padding: 100px 0;
+}
+.Our-attorneys .commitment .icon-tex {
+  text-align: center;
+  border-bottom: 2px solid #B69D74;
+  width: 112px;
+  margin: 0 auto;
+}
+.Our-attorneys .commitment .icon-tex h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  font-family: "crimson pro";
+}
+.Our-attorneys .commitment h3 {
+  width: 150px;
+  margin: 0 auto;
+  width: 661px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 600;
+  font-family: "crimson pro";
+  color: #033A5B;
+}
+.Our-attorneys .image-area1 {
+  padding-top: 50px;
+}
+.Our-attorneys .image1-content {
+  text-align: center;
+  padding-top: 25px;
+}
+.Our-attorneys .image1-content .btnt {
+  padding-top: 20px;
+}
+.Our-attorneys .image1-content .btnt a {
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 1px solid #B69D74;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #B69D74;
+  border-radius: 4px;
+}
+.Our-attorneys .image1-content .btnt a:hover {
+  background-color: #033A5B;
+  color: #B69D74;
+}
+.resolving-area {
+  padding: 100px 0;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+.resolving-area .ready {
+  padding: 0 284px;
+  margin: 0 auto;
+}
+.resolving-area .ready h2 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: "crimson pro";
+  color: #FFFFFF;
+}
+.resolving-area .ready p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-family: "DM Sans";
+  margin-right: 40px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.resolving-area .ready .btnt {
+  text-align: center;
+}
+.resolving-area .ready .btnt a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  background: #B69D74;
+  border: 1px solid #B69D74;
+  color: #fff;
+  padding: 10px 20px;
+}
+.resolving-area .ready .btnt a:hover {
+  background-color: #033A5B;
+  color: #fff;
+}
+.News-Blog {
+  padding: 100px 0;
+}
+.News-Blog .icon-tex {
+  text-align: left;
+  border-bottom: 2px solid #B69D74;
+  margin-right: 511px;
+}
+.News-Blog .icon-tex h4 {
+  font-size: 16px;
+}
+.News-Blog .icon-tex h4 img {
+  margin-right: 10px;
+}
+.News-Blog h2 {
+  color: #033A5B;
+  padding-right: 178px;
+  padding-bottom: 50px;
+}
+.News-Blog .btnt {
+  text-align: right;
+  padding-top: 85px;
+}
+.News-Blog .btnt a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  font-family: "DM Sans";
+  border: 1px solid #B69D74;
+  padding: 10px 20px;
+  color: #B69D74;
+  border-radius: 2px;
+}
+.News-Blog .btnt a img {
+  margin-left: 10px;
+}
+.News-Blog .blog {
+  background-color: #F8F6F2;
+  margin-right: -7px;
+}
+.News-Blog .blog img {
+  position: relative;
+}
+.News-Blog .blog .img3-title {
+  display: flex;
+  align-items: center;
+  margin-top: -278px;
+  position: absolute;
+}
+.News-Blog .blog .img3-title .imgg {
+  margin-left: 20px;
+}
+.News-Blog .blog .img3-title .tile {
+  margin-left: 10px;
+}
+.News-Blog .blog .img3-title .tile h6 {
+  font-size: 14px;
+  font-family: "DM Sans";
+  color: #fff;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.News-Blog .blog .catagori {
+  margin-left: 15px;
+  padding: 20px 0;
+}
+.News-Blog .blog .catagori .catagori1 {
+  display: flex;
+}
+.News-Blog .blog .catagori .catagori1 .cte1 h6 {
+  font-size: 14px;
+  color: #B69D74;
+}
+.News-Blog .blog .catagori .catagori1 .cta2 {
+  padding-left: 30px;
+}
+.News-Blog .blog .catagori .catagori1 .cta2 h6 {
+  font-size: 14px;
+  color: #B69D74;
+  margin-left: 10px;
+}
+.News-Blog .blog .catagori .catagori1 .cta2 h6 img {
+  margin-right: 7px;
+  align-items: center;
+}
+.News-Blog .blog .catagori h5 {
+  color: #033A5B;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: "Crimson Text";
+}
+.News-Blog .blog .catagori .btnt {
+  padding: 10px 0;
+  padding-bottom: 14px;
+}
+.News-Blog .blog .catagori .btnt a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 100%;
+  font-family: "DM Sans";
+  border: 1px solid #B69D74;
+  padding: 10px 20px;
+  color: #B69D74;
+  border-radius: 2px;
+}
+.News-Blog .blog .catagori .btnt a img {
+  margin-left: 5px;
+}
+
+.contact-area .main-contact {
+  padding-top: 155px;
+}
+.contact-area .main-contact .icon-tex {
+  border-bottom: 2px solid #B69D74;
+  margin-right: 556px;
+}
+.contact-area .main-contact .icon-tex h4 {
+  font-size: 16px;
+  color: #B69D74;
+  font-weight: 500;
+  line-height: 100%;
+  font-family: "Crimson pro";
+  align-items: center;
+}
+.contact-area .main-contact .icon-tex h4 img {
+  margin-right: 10px;
+}
+.contact-area .main-contact h2 {
+  font-family: "Crimson pro";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #033A5B;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.contact-area .main-contact form input {
+  width: 48%;
+  margin-right: 10px;
+  padding: 9px;
+}
+.contact-area .main-contact form .subject input {
+  width: 100%;
+  padding: 8px 0;
+  margin-top: 15px;
+}
+.contact-area .main-contact form textarea {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 90px;
+}
+.contact-area .main-contact form .btnt {
+  margin-top: 30px;
+}
+.contact-area .main-contact form .btnt a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 100%;
+  border: 1px solid #B69D74;
+  padding: 10px 20px;
+  background-color: #B69D74;
+  color: #fff;
+  border-radius: 3px;
+}
+.contact-area .main-contact form .btnt a:hover {
+  background-color: #033A5B;
+}
+.contact-area .main-contact form .btnt a img {
+  margin-left: 10px;
+}
+.footer-area {
+  padding-top: 120px;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.footer-area .lawgist p {
+  font-size: 16px;
+  font-family: "Lato";
+  padding: 27px 0;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+.footer-area .lawgist h5 {
+  font-size: 20px;
+  font-family: "Crimson pro";
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+}
+.footer-area .lawgist input {
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 15px 15px;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+.footer-area .lawgist input ::-moz-placeholder {
+  color: #fff;
+  opacity: 1px;
+}
+.footer-area .lawgist input :-ms-input-placeholder {
+  color: #fff;
+  opacity: 1px;
+}
+.footer-area .lawgist input ::placeholder {
+  color: #fff;
+  opacity: 1px;
+}
+.footer-area .lawgist .buton {
+  text-align: right;
+  display: block;
+  margin-top: -48px;
+  margin-right: 10px;
+}
+.footer-area .lawgist .buton img {
+  font-size: 16px;
+}
+.footer-area .list h3 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: "Crimson pro";
+  color: #fff;
+  margin-bottom: 30px;
+}
+.footer-area .list h6 {
+  margin-right: 10px;
+  margin-bottom: 16px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  line-height: 27px;
+  color: #fff;
+}
+.footer-area .list h6:hover {
+  color: #B69D74;
+}
+.footer-area .list h6 img {
+  margin-right: 10px;
+}
+.footer-area .list h6 img :hover {
+  color: #B69D74;
+}
+.footer-area hr {
+  margin-top: 80px;
+  color: #fff;
+}
+.footer-area h6 {
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "DM Sans";
+}
+.footer-area p {
+  color: #fff;
+  font-size: 16px;
+  font-family: "DM Sans";
+}
+
+.Complated-area {
+  background-repeat: no-repeat;
+  background-color: #F8F6F2;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.Complated-area .iconn-areaa {
+  padding-bottom: 120px;
+  margin-top: 100px;
+}
+.Complated-area .iconn-areaa .iconn-area {
+  padding: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+.Complated-area .iconn-areaa .iconn-area img {
+  border: 1px solid #fff;
+  border-radius: 52px;
+}
+.Complated-area .iconn-areaa .iconn-area h4 {
+  font-weight: 600;
+  font-family: "Crimson pro";
+  font-size: 30px;
+  font-family: 33px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.Complated-area .iconn-areaa .iconn-area p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "DM Sans";
+  padding: 0 30px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

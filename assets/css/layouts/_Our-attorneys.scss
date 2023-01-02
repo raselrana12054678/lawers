@@ -1,0 +1,68 @@
+.Our-attorneys {
+    padding: 100px 0;
+    .commitment {
+        .icon-tex {
+            text-align: center;
+            border-bottom: 2px solid #B69D74;
+            width: 112px;
+            margin: 0 auto;
+            h4 {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 100%;
+                font-family: 'crimson pro';
+                img {
+
+                }
+            }
+        }
+        h3 {
+            width: 150px;
+            margin: 0 auto;
+            width: 661px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 48px;
+            line-height: 60px;
+            font-weight: 600;
+            font-family: 'crimson pro';
+            color: #033A5B;
+        }
+    }
+    .image-area1 {
+        padding-top: 50px;
+    }
+    .image1-content {
+        text-align: center;
+        padding-top: 25px;
+        img {
+
+        }
+        h5 {
+
+        }
+        p {
+
+        }
+        .btnt {
+            padding-top: 20px;
+            a {
+                text-decoration: none;
+                text-transform: capitalize;
+                border: 1px solid #B69D74;
+                padding: 10px 20px;
+                font-size: 16px;
+                color: #B69D74;
+                border-radius: 4px;
+                &:hover {
+                    background-color: #033A5B;
+                    color: #B69D74;
+                }
+                img {
+
+                }
+            }
+        }
+    }
+
+}

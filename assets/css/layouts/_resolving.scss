@@ -1,0 +1,51 @@
+.resolving-area {
+    padding: 100px 0;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    .ready {
+        padding: 0 284px;
+        margin: 0 auto;
+        h2 {
+            text-align: center;
+            font-size: 48px;
+            line-height: 52px;
+            font-weight: 600;
+            font-family: 'crimson pro';
+            color: #FFFFFF;
+        }
+        p {
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'DM Sans';
+            margin-right: 40px;
+            line-height: 27px;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        .btnt {
+            text-align: center;
+            a {
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 100%;
+                background: #B69D74;
+                border: 1px solid #B69D74;
+                color: #fff;
+                padding: 10px 20px;
+                &:hover {
+                    background-color: #033A5B;
+                    color: #fff;
+                }
+                img {
+
+                }
+            }
+        }
+    }
+}
